@@ -5,7 +5,7 @@ function netSalary(salaryy) {
   return salaryy - salaryy * 0.075;
 }
 
-function employee(employeeName, department, level, image) {
+function Employee(employeeName, department, level, image) {
   this.id = 0;
   this.employeeName = employeeName;
   this.department = department;
@@ -14,7 +14,7 @@ function employee(employeeName, department, level, image) {
   this.image = image;
 }
 
-employee.prototype.render = function (wrapperId) {
+Employee.prototype.render = function (wrapperId) {
 const wrapper = document.getElementById(wrapperId);
   const container = document.createElement("div");
   const image = document.createElement("img");
@@ -37,7 +37,7 @@ const wrapper = document.getElementById(wrapperId);
   
 };
 
-employee.prototype.generate = function () {
+Employee.prototype.generate = function () {
   var temp = this.level;
   this.id = ++unique;
   if (temp === "Senior") {
@@ -51,7 +51,7 @@ employee.prototype.generate = function () {
   }
 };
 
-const employee1 = new employee(
+const employee1 = new Employee(
   "Ghazi Samer",
   "Administration",
   "Senior",
