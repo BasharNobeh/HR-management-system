@@ -60,7 +60,7 @@ const employee1 = new Employee(
 
 employee1.generate();
 employee1.render("seniors");
-const employee2 = new employee(
+const employee2 = new Employee(
   "Lana Ali",
   "Finance",
   "Senior",
@@ -68,7 +68,7 @@ const employee2 = new employee(
 );
 employee2.generate();
 employee2.render("seniors");
-const employee4 = new employee(
+const employee4 = new Employee(
   "Safi Walid",
   "Administration",
   "Mid-Senior",
@@ -77,7 +77,7 @@ const employee4 = new employee(
 employee4.generate();
 employee4.render("midSeniors");
 
-const employee3 = new employee(
+const employee3 = new Employee(
   "Tamara Ayoub",
   "Marketing",
   "Senior",
@@ -85,7 +85,7 @@ const employee3 = new employee(
 );
 employee3.generate();
 employee3.render("seniors");
-const employee6 = new employee(
+const employee6 = new Employee(
   "Rana Saleh",
   "Development",
   "Junior",
@@ -93,7 +93,7 @@ const employee6 = new employee(
 );
 employee6.generate();
 employee6.render("juniors");
-const employee7 = new employee(
+const employee7 = new Employee(
   "Hadi Ahmad",
   "Finance",
   "Mid-Senior",
@@ -101,7 +101,7 @@ const employee7 = new employee(
 );
 employee7.generate();
 employee7.render("midSeniors");
-const employee5 = new employee(
+const employee5 = new Employee(
   "Omar Zaid",
   "Development",
   "Senior",
